@@ -7,4 +7,4 @@ app.get('/', function (req, res) {
   res.send('Gabriel\'s Mayta Assets');
 });
 
-//app.listen(3002);
+app.listen(80);

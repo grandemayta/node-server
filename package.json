@@ -1,6 +1,7 @@
 {
   "name": "node-server",
   "version": "1.0.0",
+  "main": "app.js",
   "author": "Gabriel Mayta",
   "scripts": {
     "start": "node app.js"

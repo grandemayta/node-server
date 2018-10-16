@@ -68,10 +68,10 @@ module.exports.models = {
   *                                                                          *
   ***************************************************************************/
 
-  attributes: {
+/*   attributes: {
     createdAt: { type: 'number', autoCreatedAt: true, },
     updatedAt: { type: 'number', autoUpdatedAt: true, },
-    id: { type: 'number', autoIncrement: true, },
+    id: { type: 'number', autoIncrement: true, }, */
     //--------------------------------------------------------------------------
     //  /\   Using MongoDB?
     //  ||   Replace `id` above with this instead:
@@ -83,7 +83,7 @@ module.exports.models = {
     // Plus, don't forget to configure MongoDB as your default datastore:
     // https://sailsjs.com/docs/tutorials/using-mongo-db
     //--------------------------------------------------------------------------
-  },
+ /*  }, */
 
 
   /******************************************************************************

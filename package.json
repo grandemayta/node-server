@@ -5,12 +5,12 @@
   "scripts": {
     "start": "node app.js"
   },
+  "dependencies": {
+    "express": "^4.16.4"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/grandemayta/node-server.git"
   },
-  "license": "MIT",
-  "dependencies": {
-    "express": "^4.16.4"
-  }
+  "license": "MIT"
 }

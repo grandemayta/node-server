@@ -1,10 +1,10 @@
-var express = require('express')
-var app = express()
+var express = require('express');
+var app = express();
 
 app.use(express.static('public'));
 
 app.get('/', function (req, res) {
-  res.send('hello world')
-})
+  res.send('Gabriel\'s Mayta Assets');
+});
 
-app.listen(80);
+//app.listen(3002);

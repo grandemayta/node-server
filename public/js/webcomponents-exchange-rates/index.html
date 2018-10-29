@@ -4,10 +4,16 @@
         <title>WebComponents Exchange Rates</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            @media only screen and (min-width: 600px) {
+                app-my-component {
+                    display: block;
+                    width: 360px;
+                }
+            }
+        </style>
     </head>
     <body>
         <app-my-component currencyFrom="EUR" currencyTo="USD"></app-my-component>
-
-        <script src="./app.min.js"></script>
     </body>
 </html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Test Async Await</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+
+        <div id="root"
+             data-title="Start code from here with Vanilla Javascript!"
+             data-href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+        ></div>
+
+        <script src="https://cdn.jsdelivr.net/npm/babel-regenerator-runtime@6.5.0/runtime.js"></script>
+        <script src="index.min.js"></script>
+        <script>
+            window.addEventListener('load', function() {
+                var myComponent = new AsyncAwait('#root');
+                myComponent.render();
+            });
+        </script>
+    </body>
+</html>

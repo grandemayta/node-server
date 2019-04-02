@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #303030;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 20px auto;
+    text-align: center;
+}

@@ -1,0 +1,1 @@
+import{d as t,e}from"./p-4cbccbd8.js";class r{constructor(e){t(this,e)}getText(){if(this.text)return e("p",null,this.text)}render(){return this.getText()}}export{r as ama_text};

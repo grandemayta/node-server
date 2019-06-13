@@ -1,0 +1,1 @@
+import{a,b as s}from"./p-4cbccbd8.js";a().then(a=>s([["p-aopnx6x2",[[1,"ama-gallery",{configuration:[1]}],[4,"ama-slide"]]],["p-csexuhvo",[[0,"ama-image",{imageSrc:[1,"image-src"],isLazyLoading:[4,"is-lazy-loading"],lazyLoadClass:[1,"lazy-load-class"]}]]],["p-vafhsdjx",[[0,"ama-text",{text:[1]}]]],["p-piqcrp3a",[[0,"ama-title",{title:[1]}]]]],{resourcesUrl:a}));

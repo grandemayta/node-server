@@ -1,0 +1,1 @@
+import{d as t,e}from"./p-4cbccbd8.js";class i{constructor(e){t(this,e)}getTitle(){if(this.title)return e("p",null,this.title)}render(){return this.getTitle()}}export{i as ama_title};

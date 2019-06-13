@@ -1,0 +1,1 @@
+System.register(["./p-5f64e919.system.js"],function(t,e){"use strict";var n,r;return{setters:[function(t){n=t.d;r=t.e}],execute:function(){var e=function(){function t(t){n(this,t)}t.prototype.getText=function(){if(this.text){return r("p",null,this.text)}};t.prototype.render=function(){return this.getText()};return t}();t("ama_text",e)}}});

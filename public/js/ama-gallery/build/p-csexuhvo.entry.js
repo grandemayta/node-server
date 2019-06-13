@@ -1,0 +1,1 @@
+import{d as a,e as s,g as i}from"./p-4cbccbd8.js";class r{constructor(s){a(this,s),this.isLazyLoading=!1,this.lazyLoadClass="lazy-load"}render(){return s(i,null,s("img",this.isLazyLoading?{class:this.lazyLoadClass,"data-src":this.imageSrc}:{src:this.imageSrc}))}}export{r as ama_image};

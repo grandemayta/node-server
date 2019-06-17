@@ -1,6 +1,6 @@
 import http from '../services/http-wrapper.js';
 
-export default class GithubFollowers extends HTMLElement {
+export class GithubFollowers extends HTMLElement {
   static get observedAttributes() {
     return ['nickname'];
   }

@@ -1,3 +1,3 @@
-import GithubProfile from './components/github-profile.js';
-import GithubRepositories from './components/github-repositories.js';
-import GithubFollowers from './components/github-followers.js';
+export { GithubProfile } from './components/github-profile.js';
+export { GithubRepositories } from './components/github-repositories.js';
+export { GithubFollowers } from './components/github-followers.js';

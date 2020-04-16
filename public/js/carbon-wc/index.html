@@ -28,27 +28,57 @@
   </div>
 
   <hr>
+
+  <div>
+    <h1>Multiselect</h1>
+    <bx-multi-select value="Inter">
+      <bx-multi-select-item value="foo">Inter</bx-multi-select-item>
+      <bx-multi-select-item value="bar">Milan</bx-multi-select-item>
+      <bx-multi-select-item value="baz">Juventus</bx-multi-select-item>
+    </bx-multi-select>
+  </div>
+
+  <hr>
+
+  <div>
+    <h1>Input Number</h1>
+    <bx-number-input></bx-number-input>
+  </div>
   
-  <bx-multi-select value="foo,baz">
-    <bx-multi-select-item value="foo">Foo</bx-multi-select-item>
-    <bx-multi-select-item value="bar">Bar</bx-multi-select-item>
-    <bx-multi-select-item value="baz">Baz</bx-multi-select-item>
-  </bx-multi-select>
+  <hr>
 
-  <bx-number-input></bx-number-input>
+  <div>
+    <h1>Slider</h1>
+    <bx-slider max="100" min="0"></bx-slider>
+    <bx-slider max="100" min="50"></bx-slider>
+  </div>
+  
 
-  <bx-slider max="100" min="0"></bx-slider>
+  <div>
+    <h1>Toggle</h1>
+    <bx-toggle label-text="Toggle 1"></bx-toggle>
+    <bx-toggle label-text="Toggle 2"></bx-toggle>
+  </div>
 
-  <bx-toggle label-text="Toggle"></bx-toggle>
+  <div>
+    <h1>Tooltip</h1>
+    <bx-tooltip>
+      <bx-tooltip-body>
+        <p>
+          This is some tooltip text. This box shows the maximum amount of text that should appear inside. If more room is needed
+          please use a modal instead.
+        </p>
+      </bx-tooltip-body>
+    </bx-tooltip>
 
-  <bx-tooltip>
-    <bx-tooltip-body>
-      <p>
-        This is some tooltip text. This box shows the maximum amount of text that should appear inside. If more room is needed
-        please use a modal instead.
-      </p>
-    </bx-tooltip-body>
-  </bx-tooltip>
+    <bx-tooltip>
+      <bx-tooltip-body>
+        <p>
+          Un altro tooltip.
+        </p>
+      </bx-tooltip-body>
+    </bx-tooltip>
+  </div>
   
   <bx-modal open="true">
     <bx-modal-header >

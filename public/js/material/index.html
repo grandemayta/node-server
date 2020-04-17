@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Material Web</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://unpkg.com/material-components-web@v5.0.0/dist/material-components-web.min.css">
+</head>
+<body>
+
+    <div>
+    <h1>Input</h1>
+        <div class="mdc-text-field">
+            <input type="text" id="my-text-field" class="mdc-text-field__input first-name-input">
+            <label class="mdc-floating-label" for="my-text-field">First name</label>
+            <div class="mdc-line-ripple"></div>
+        </div>
+    </div>
+
+    <div>
+        <h1>Slider</h1>
+        <div class="mdc-slider" tabindex="0" role="slider" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-label="Select Value">
+            <div class="mdc-slider__track-container">
+                <div class="mdc-slider__track"></div>
+            </div>
+            <div class="mdc-slider__thumb-container">
+                <svg class="mdc-slider__thumb" width="21" height="21">
+                <circle cx="10.5" cy="10.5" r="7.875"></circle>
+                </svg>
+                <div class="mdc-slider__focus-ring"></div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <h1>Switch</h1>
+        <div class="mdc-switch mdc-switch-1">
+            <div class="mdc-switch__track"></div>
+            <div class="mdc-switch__thumb-underlay">
+                <div class="mdc-switch__thumb"></div>
+                <input type="checkbox" id="basic-switch" class="mdc-switch__native-control" role="switch" aria-checked="false">
+            </div>
+        </div>
+        <label for="basic-switch">off/on</label>
+        <div class="mdc-switch mdc-switch-2">
+            <div class="mdc-switch__track"></div>
+            <div class="mdc-switch__thumb-underlay">
+                <div class="mdc-switch__thumb"></div>
+                <input type="checkbox" id="basic-switch" class="mdc-switch__native-control" role="switch" aria-checked="false">
+            </div>
+        </div>
+        <label for="basic-switch">off/on</label>
+    </div>
+
+    <div>
+        <h1>Checkbox</h1>
+        <div class="mdc-form-field">
+            <div class="mdc-checkbox mdc-checkbox-1">
+                <input type="checkbox" class="mdc-checkbox__native-control" id="checkbox-1"/>
+                <div class="mdc-checkbox__background">
+                    <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
+                        <path class="mdc-checkbox__checkmark-path" fill="none" d="M1.73,12.91 8.1,19.28 22.79,4.59"/>
+                    </svg>
+                    <div class="mdc-checkbox__mixedmark"></div>
+                </div>
+                <div class="mdc-checkbox__ripple"></div>
+            </div>
+            <label for="checkbox-1">Checkbox 1</label>
+        </div>
+        <div class="mdc-form-field">
+            <div class="mdc-checkbox mdc-checkbox-2">
+                <input type="checkbox" class="mdc-checkbox__native-control" id="checkbox-1"/>
+                <div class="mdc-checkbox__background">
+                    <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
+                        <path class="mdc-checkbox__checkmark-path" fill="none" d="M1.73,12.91 8.1,19.28 22.79,4.59"/>
+                    </svg>
+                    <div class="mdc-checkbox__mixedmark"></div>
+                </div>
+                <div class="mdc-checkbox__ripple"></div>
+            </div>
+            <label for="checkbox-1">Checkbox 2</label>
+        </div>
+    </div>
+    
+    <script src="https://unpkg.com/material-components-web@v5.0.0/dist/material-components-web.min.js"></script>
+    <script>
+        window.addEventListener('load', function() {
+            var textField = document.querySelector('.mdc-text-field');
+            mdc.textField.MDCTextField.attachTo(textField);
+
+            var mdcSlider = document.querySelector('.mdc-slider');
+            mdc.slider.MDCSlider.attachTo(mdcSlider);
+
+            var mdcSwitch1 = document.querySelector('.mdc-switch-1');
+            mdc.switchControl.MDCSwitch.attachTo(mdcSwitch1);
+            var mdcSwitch2 = document.querySelector('.mdc-switch-2');
+            mdc.switchControl.MDCSwitch.attachTo(mdcSwitch2);
+
+            var mdcCheckbox1 = document.querySelector('.mdc-checkbox-1');
+            mdc.checkbox.MDCCheckbox.attachTo(mdcCheckbox1);
+            var mdcCheckbox2 = document.querySelector('.mdc-checkbox-2');
+            mdc.checkbox.MDCCheckbox.attachTo(mdcCheckbox2);
+        });
+    </script>
+</body>
+</html>
